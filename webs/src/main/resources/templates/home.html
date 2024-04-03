@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Home Screen</title>
+</head>
+<body>
+    <h1 th:inline="text">Welcome [[${Username}]]</h1>
+    <a href="/poker"><button value="Play Poker">Play Poker</button></a>
+    <a href="/blackjack"><button value="Play BlackJack">Play BlackJack</button></a>
+    <a href="/slotmachine"><button value="Play Slot Machine">Play Slot Machine</button></a>
+    <a href="/weather"><button value="Play Weather Predicting Game">Play Weather Predicting Game</button></a>
+</body>
+</html>
